@@ -403,71 +403,15 @@
 	}
 	
 		
-	@media only screen and (max-width: 1020px) {
-		.head {
-		font-size: 20px;
-		display: flex;
-		flex-direction: column;
-		flex-wrap: wrap;
-		justify-content: center;
-		align-items: center;
-		color: white;
-		letter-spacing: 2px;
-		font-family: SpaceQuest1;
-		text-shadow: 5px 5px black;
-	}
-	.head2 {
-		position: relative;
-		font-size: 25px;
-		margin-top: 35%;
-		display: flex;
-		flex-direction: row;
-		flex-wrap: nowrap;
-		justify-content: center;
-		align-items: center;
-		color: white;
-		letter-spacing: 5px;
-		font-family: Rocket;
-		text-shadow: 10px 10px black;
-	}
-	}
-	@media only screen and (max-width: 980px) {
-		.head {
-		font-size: 20px;
-		display: flex;
-		flex-direction: column;
-		flex-wrap: wrap;
-		justify-content: center;
-		align-items: center;
-		color: white;
-		letter-spacing: 2px;
-		font-family: SpaceQuest1;
-		text-shadow: 5px 5px black;
-	}
-	.head2 {
-		position: relative;
-		font-size: 25px;
-		margin-top: 35%;
-		display: flex;
-		flex-direction: row;
-		flex-wrap: nowrap;
-		justify-content: center;
-		align-items: center;
-		color: white;
-		letter-spacing: 5px;
-		font-family: Rocket;
-		text-shadow: 10px 10px black;
-	}
-	}
-	@media only screen and (max-width: 375px) {
+	@media only screen and (min-width: 1020px) {
 		.head {
 		font-size: 17px;
 		margin-top: 5%;
-		/* display: flex;
+		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
 		justify-content: center;
-		align-items: center; */
+		align-items: center;
 		color: white;
 		letter-spacing: 2px;
 		font-family: SpaceQuest1;
@@ -477,6 +421,325 @@
 		position: relative;
 		font-size: 11px;
 		margin-top: 63%;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		justify-content: center;
+		align-items: center;
+		color: white;
+		letter-spacing: 5px;
+		font-family: Rocket;
+		text-shadow: 10px 10px black;
+	}
+	}
+	@media only screen and (min-width: 414px) {
+		.head {
+		font-size: 17px;
+		margin-top: 30%;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		color: white;
+		letter-spacing: 2px;
+		font-family: SpaceQuest1;
+		text-shadow: 5px 5px black;
+	}
+	.head2 {
+		position: relative;
+		font-size: 11px;
+		margin-top: 63%;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		justify-content: center;
+		align-items: center;
+		color: white;
+		letter-spacing: 5px;
+		font-family: Rocket;
+		text-shadow: 10px 10px black;
+	}
+	}
+	@media only screen and (min-width: 375px) {
+		.head {
+		font-size: 17px;
+		margin-top: 5%;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		color: white;
+		letter-spacing: 2px;
+		font-family: SpaceQuest1;
+		text-shadow: 5px 5px black;
+	}
+	.head2 {
+		position: relative;
+		font-size: 11px;
+		margin-top: 65%;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		justify-content: center;
+		align-items: center;
+		color: white;
+		letter-spacing: 5px;
+		font-family: Rocket;
+		text-shadow: 10px 10px black;
+	}
+	}
+	@media only screen and (min-width: 390px) {
+		.head {
+		font-size: 17px;
+		margin-top: 27%;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		color: white;
+		letter-spacing: 2px;
+		font-family: SpaceQuest1;
+		text-shadow: 5px 5px black;
+	}
+	.head2 {
+		position: relative;
+		font-size: 11px;
+		margin-top: 63%;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		justify-content: center;
+		align-items: center;
+		color: white;
+		letter-spacing: 5px;
+		font-family: Rocket;
+		text-shadow: 10px 10px black;
+	}
+	}
+	@media only screen and (min-width: 393px) {
+		.head {
+		font-size: 17px;
+		margin-top: 27%;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		color: white;
+		letter-spacing: 2px;
+		font-family: SpaceQuest1;
+		text-shadow: 5px 5px black;
+	}
+	.head2 {
+		position: relative;
+		font-size: 11px;
+		margin-top: 63%;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		justify-content: center;
+		align-items: center;
+		color: white;
+		letter-spacing: 5px;
+		font-family: Rocket;
+		text-shadow: 10px 10px black;
+	}
+	}
+	@media only screen and (min-width: 360px) {
+		.head {
+		font-size: 17px;
+		margin-top: 18%;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		color: white;
+		letter-spacing: 2px;
+		font-family: SpaceQuest1;
+		text-shadow: 5px 5px black;
+	}
+	.head2 {
+		position: relative;
+		font-size: 11px;
+		margin-top: 63%;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		justify-content: center;
+		align-items: center;
+		color: white;
+		letter-spacing: 5px;
+		font-family: Rocket;
+		text-shadow: 10px 10px black;
+	}
+	}
+	@media only screen and (min-width: 412px) {
+		.head {
+		font-size: 17px;
+		margin-top: 30%;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		color: white;
+		letter-spacing: 2px;
+		font-family: SpaceQuest1;
+		text-shadow: 5px 5px black;
+	}
+	.head2 {
+		position: relative;
+		font-size: 11px;
+		margin-top: 65%;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		justify-content: center;
+		align-items: center;
+		color: white;
+		letter-spacing: 5px;
+		font-family: Rocket;
+		text-shadow: 10px 10px black;
+	}
+	}
+	@media only screen and (min-width: 820px) {
+		.head {
+		font-size: 30px;
+		margin-top: 28%;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		color: white;
+		letter-spacing: 2px;
+		font-family: SpaceQuest1;
+		text-shadow: 5px 5px black;
+	}
+	.head2 {
+		position: relative;
+		font-size: 30px;
+		margin-top: 32%;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		justify-content: center;
+		align-items: center;
+		color: white;
+		letter-spacing: 5px;
+		font-family: Rocket;
+		text-shadow: 10px 10px black;
+	}
+	}
+	@media only screen and (min-width: 769px) {
+		.head {
+		font-size: 30px;
+		margin-top: 20%;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		color: white;
+		letter-spacing: 2px;
+		font-family: SpaceQuest1;
+		text-shadow: 5px 5px black;
+	}
+	.head2 {
+		position: relative;
+		font-size: 25px;
+		margin-top: 32%;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		justify-content: center;
+		align-items: center;
+		color: white;
+		letter-spacing: 5px;
+		font-family: Rocket;
+		text-shadow: 10px 10px black;
+	}
+	}
+	@media only screen and (min-width: 912px) {
+		.head {
+		font-size: 35px;
+		margin-top: 32%;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		color: white;
+		letter-spacing: 2px;
+		font-family: SpaceQuest1;
+		text-shadow: 5px 5px black;
+	}
+	.head2 {
+		position: relative;
+		font-size: 35px;
+		margin-top: 32%;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		justify-content: center;
+		align-items: center;
+		color: white;
+		letter-spacing: 5px;
+		font-family: Rocket;
+		text-shadow: 10px 10px black;
+	}
+	}
+	@media only screen and (min-width: 540px) {
+		.head {
+		font-size: 20px;
+		margin-top: 5%;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		color: white;
+		letter-spacing: 2px;
+		font-family: SpaceQuest1;
+		text-shadow: 5px 5px black;
+	}
+	.head2 {
+		position: relative;
+		font-size: 15px;
+		margin-top: 48%;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		justify-content: center;
+		align-items: center;
+		color: white;
+		letter-spacing: 5px;
+		font-family: Rocket;
+		text-shadow: 10px 10px black;
+	}
+	}
+		@media only screen and (min-width: 280px) {
+		.head {
+		font-size: 12px;
+		margin-top: 5%;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		color: white;
+		letter-spacing: 2px;
+		font-family: SpaceQuest1;
+		text-shadow: 5px 5px black;
+	}
+	.head2 {
+		position: relative;
+		font-size: 5px;
+		margin-top: 90%;
 		display: flex;
 		flex-direction: column;
 		flex-wrap: nowrap;
