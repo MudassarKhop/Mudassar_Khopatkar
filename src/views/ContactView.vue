@@ -5,7 +5,7 @@
 		<div id="blue2"></div>
 		<div id="glass-object">
 			<h2 class="heading">- lets get in touch -</h2>
-			<h1 class="heading-">CONTACT ME</h1>
+			<h1 class="heading-">JOIN THE FORCES</h1>
 		</div>
 		<div class="container-about"></div>
 	</section>

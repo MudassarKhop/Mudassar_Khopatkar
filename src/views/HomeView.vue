@@ -18,7 +18,7 @@
 				<div class="test1"></div>
 				<article class="earth-demo">
 					<div class="earth">
-						<a href="#about"
+						<a :href="about"
 							><img
 								src="https://cssanimation.rocks/images/random/earth.png"
 								alt=""
