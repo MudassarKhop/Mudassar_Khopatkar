@@ -5,51 +5,78 @@
 		<div id="blue2"></div>
 		<div id="glass-object">
 			<div id="head">
-
 				<h2 class="heading">- past, present -</h2>
 				<h1 class="heading-">CAPTAINS LOG</h1>
 			</div>
 			<div id="information">
-
 				<div class="text">
 					<p id="para-about">
-					 I'm an ambitious, focused and determined individual. I'm also very competitive. I always look for ways to challenge myself. I'm very patient with others and work well in a team environment. I have a very spontaneous personality, which makes me think the adventurous characteristic applies to me. I have always been fascinated with technology, and I hope to become a web or software developer.
-					  </p>
-					 <p id="para-about">In 2020 my friends from university asked me to help them build a basic HTML and CSS website for a project. I spent the night on YouTube learning HTML and CSS and built a decent website for them, and ever since then, I've realised that I'm passionate about this kind of work.  I was unable to attend university after I matriculated because I could not get the funding, and then I applied to Life Choices Academy. It's a blessing for me to pursue what I love rather than go to university and do something I'd not enjoy.
-				   </p>
+						I'm an ambitious, focused and determined individual. I'm also very
+						competitive. I always look for ways to challenge myself. I'm very
+						patient with others and work well in a team environment. I have a
+						very spontaneous personality, which makes me think the adventurous
+						characteristic applies to me. I have always been fascinated with
+						technology, and I hope to become a web or software developer.
+					</p>
+					<p id="para-about">
+						In 2020 my friends from university asked me to help them build a
+						basic HTML and CSS website for a project. I spent the night on
+						YouTube learning HTML and CSS and built a decent website for them,
+						and ever since then, I've realised that I'm passionate about this
+						kind of work. I was unable to attend university after I matriculated
+						because I could not get the funding, and then I applied to Life
+						Choices Academy. It's a blessing for me to pursue what I love rather
+						than go to university and do something I'd not enjoy.
+					</p>
 				</div>
 				<div class="text-2">
-					<img width="330" height="180" src="https://github.com/MudassarKhop/Real-Portoflio/blob/main/Mudassar%20(4).JPG?raw=true" alt="">
-	             	<h3 class="about-heading3">- Work Experience -</h3>
+					<img
+						width="290"
+						height="270"
+						src="https://i.postimg.cc/CMNCwmnL/IMG-20220722-063300.jpg"
+						alt=""
+					/>
+					<h3 class="about-heading3">- Work Experience -</h3>
 					<div id="resume">
-                         <p class="para-about2">Voluntary Work at Rylands High School (2019 July)</p>
+						<p class="para-about2">
+							Voluntary Work at Rylands High School (2019 July)
+						</p>
 						<p class="para-about2">Cattering at Ashuras Cattering (2019 Dec)</p>
-						<p class="para-about2">Waiter at Mariams Kitchen (2021/2022 Dec/jan)</p>
-					  </div>
-					 	<div id="resume">
-							<h3 class="about-heading3">- Education -</h3>
-							<p class="para-about2">
-							  Rylands Primary School</p>
-							 <p class="para-about2">Rylands High School</p> 
-							  <p class="para-about2">Life Choices Coding Academy (currently)
-							</p>
+						<p class="para-about2">
+							Waiter at Mariams Kitchen (2021/2022 Dec/jan)
+						</p>
+					</div>
+					<div id="resume">
+						<h3 class="about-heading3">- Education -</h3>
+						<p class="para-about2">Rylands Primary School</p>
+						<p class="para-about2">Rylands High School</p>
+						<p class="para-about2">Life Choices Coding Academy (currently)</p>
 					</div>
 				</div>
 				<div class="text-3">
-				<h3 class="about-heading3">- Football -</h3>
-                    <p id="para-about">
-					Aside from my passion for web development, i have a strong bond with the sport of football which developed during my time in highschool. 
-					  </p>
-					   <p id="para-about">
-						I've also developed many soft skills because of the sport such teamwork and patience, which is why i have a high level of appreciation for the sport.
-					  </p>
-					  <iframe width="430" height="250" src="https://www.youtube.com/embed/_eu7-fQv4wc?list=PL8VT1pFuAucej9xQ1ep-DYFZRTMgNfqJF" title="Footy 07.06.2022" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<h3 class="about-heading3">- Football -</h3>
+					<p id="para-about">
+						Aside from my passion for web development, i have a strong bond with
+						the sport of football which developed during my time in highschool.
+					</p>
+					<p id="para-about">
+						I've also developed many soft skills because of the sport such
+						teamwork and patience, which is why i have a high level of
+						appreciation for the sport.
+					</p>
+					<iframe
+						width="450"
+						height="250"
+						src="https://www.youtube.com/embed/bLLODPSs1B8"
+						title="Highlights"
+						frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+						allowfullscreen
+					></iframe>
 				</div>
 			</div>
 		</div>
-		<div class="container-about">
-
-		</div>
+		<div class="container-about"></div>
 	</section>
 </template>
 <script>
@@ -120,18 +147,16 @@
 		flex-direction: row;
 		flex-wrap: wrap;
 		/* gap: 20px; */
-	
 	}
-	#information{
+	#information {
 		margin: auto;
 		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
 		gap: 40px;
-	
 	}
-	.text{
-		margin-top:2% ;
+	.text {
+		margin-top: 2%;
 		display: flex;
 		flex-direction: column;
 		flex-wrap: wrap;
@@ -139,8 +164,8 @@
 		align-items: flex-start;
 		width: 30%;
 	}
-	.text-2{
-		margin-top:-1% ;
+	.text-2 {
+		margin-top: -1%;
 		display: flex;
 		flex-direction: column;
 		flex-wrap: wrap;
@@ -148,8 +173,8 @@
 		align-items: flex-start;
 		width: 30%;
 	}
-	.text-3{
-		margin-top:2% ;
+	.text-3 {
+		margin-top: 2%;
 		display: flex;
 		flex-direction: column;
 		flex-wrap: wrap;
@@ -157,20 +182,20 @@
 		align-items: flex-start;
 		width: 30%;
 	}
-	img{
-		margin-bottom: 6% ;
+	img {
+		margin-bottom: 6%;
 	}
-	#para-about{
-        display: flex;
+	#para-about {
+		display: flex;
 		flex-direction: column;
 		flex-wrap: wrap;
 		justify-content: start;
 		align-items: flex-start;
 		font-family: SpaceQuest2;
-		margin-bottom: 6% ;
+		margin-bottom: 6%;
 		text-shadow: 3px 3px black;
 	}
-	.para-about2{
+	.para-about2 {
 		display: flex;
 		flex-direction: column;
 		flex-wrap: wrap;
@@ -192,14 +217,14 @@
 		letter-spacing: 3px;
 		text-shadow: 5px 5px black;
 	}
-	.about-heading3{
-	margin-bottom: 4% ;
-	color: #67b3e4;
-	text-shadow: 7px 7px black;
-	font-family: Rocket;
-	letter-spacing: 4px;
+	.about-heading3 {
+		margin-bottom: 4%;
+		color: #67b3e4;
+		text-shadow: 7px 7px black;
+		font-family: Rocket;
+		letter-spacing: 4px;
 	}
-	#resume{
+	#resume {
 		margin-bottom: 15%;
 	}
 </style>

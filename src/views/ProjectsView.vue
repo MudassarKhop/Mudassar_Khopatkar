@@ -5,8 +5,9 @@
 		<div class="projects-section">
 			<div class="project-text">
 				<h3 class="about-heading3">- FIND WHAT YOU'RE LOOKING FOR -</h3>
-                    <p id="para-about">
-                      USE THE SORT FUNCTION TO FIND PROJECTS WITH DISTINT LANGUAGES					  </p>
+				<p id="para-about">
+					USE THE SORT FUNCTION TO FIND PROJECTS WITH DISTINT LANGUAGES
+				</p>
 				<div class="projectFilter" v-if="filteredProjects">
 					<select v-model="language">
 						<option value="all">All</option>
@@ -18,7 +19,6 @@
 				</div>
 			</div>
 			<div class="project-text2">
-
 				<div class="iphone">
 					<img
 						class="png1"
@@ -43,12 +43,14 @@
 			/>
 		</div>
 	</section>
+	<Footer />
 </template>
 <script>
 	import Icons from "@/components/icons.vue";
 	import Projectcard from "../components/projectcard.vue";
-
+	import Footer from "../components/footer.vue";
 	export default {
+		components: { Footer },
 		computed: {
 			filteredProjects() {
 				return this.projects.filter((project) => {
@@ -176,8 +178,6 @@
 		display: flex;
 		flex-direction: column;
 		flex-wrap: nowrap;
-		
-
 	}
 	.iphone {
 		position: absolute;
@@ -188,7 +188,6 @@
 		align-items: flex-end;
 		margin-top: 7%;
 		margin-left: 5%;
-
 	}
 	.laptop {
 		display: flex;
@@ -246,31 +245,31 @@
 		height: 50px;
 		filter: drop-shadow(4px 4px 4px grey);
 	}
-	.project-text{
+	.project-text {
 		display: flex;
 		flex-direction: column;
 		flex-wrap: wrap;
 		justify-content: center;
 		align-items: center;
 	}
-	.project-text2{
+	.project-text2 {
 	}
-	.about-heading3{
+	.about-heading3 {
 		font-size: 15px;
-	margin-bottom: 4% ;
-	color: #67b3e4;
-	text-shadow: 7px 7px black;
-	font-family: Rocket;
-	letter-spacing: 4px;
+		margin-bottom: 4%;
+		color: #67b3e4;
+		text-shadow: 7px 7px black;
+		font-family: Rocket;
+		letter-spacing: 4px;
 	}
-	#para-about{
-        display: flex;
+	#para-about {
+		display: flex;
 		flex-direction: column;
 		flex-wrap: wrap;
 		justify-content: center;
 		align-items: center;
 		font-family: SpaceQuest2;
-		margin-bottom: 6% ;
+		margin-bottom: 6%;
 		text-shadow: 3px 3px black;
 	}
 	/*  */

@@ -112,7 +112,7 @@
 		color: white;
 		letter-spacing: 5px;
 		font-family: Rocket;
-    text-shadow: 10px 10px black;
+		text-shadow: 10px 10px black;
 	}
 
 	body {
@@ -271,17 +271,17 @@
 		}
 	}
 	/* @-webkit-keyframes shooting {
-  0% {
-    transform: translateX(0);
-  }
-  10% {
-    transform: translateX(300px);
-  }
-  10% {
-    transform: translateX(300px);
-  }
-  
-} */
+	  0% {
+	    transform: translateX(0);
+	  }
+	  10% {
+	    transform: translateX(300px);
+	  }
+	  10% {
+	    transform: translateX(300px);
+	  }
+
+	} */
 	@keyframes shooting {
 		95% {
 			transform: translateX(0);
@@ -314,7 +314,7 @@
 	}
 
 	.stars {
-		background: transparent url(https://i.postimg.cc/cL0BR5C3/stars-1.png) repeat top
+		background: black url(https://i.postimg.cc/cL0BR5C3/stars-1.png) repeat top
 			center;
 		z-index: 0;
 		animation: animatedBackground 1000s linear infinite;
@@ -323,8 +323,16 @@
 	}
 
 	.twinkling {
-		background: transparent url(https://i.postimg.cc/KzMTSn4F/twinkling-1.png)
-			repeat top center;
+		background: transparent
+			linear-gradient(
+				255.21deg,
+				rgba(58, 39, 96, 0.6) 12.4%,
+				rgba(25, 16, 41, 0.6) 33.1%,
+				rgba(26, 23, 47, 0.6) 57.29%,
+				rgba(32, 43, 65, 0.6) 77.17%,
+				rgba(35, 99, 118, 0.6) 99.74%
+			)
+			url(https://i.postimg.cc/KzMTSn4F/twinkling-1.png) repeat top center;
 		z-index: 1;
 		animation: move-twink-back 200s linear infinite;
 	}

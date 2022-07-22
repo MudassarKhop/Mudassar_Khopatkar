@@ -1,0 +1,174 @@
+<template>
+	<div id="logos">
+		<div id="details">
+			<div id="footer1" class="card w-100">
+				<div>
+					<h2
+						style="
+							font-family: SpaceQuest;
+							text-shadow: 3px 3px black;
+							letter-spacing: 3px;
+							margin-bottom: 8px;
+						"
+					>
+						Discover
+					</h2>
+					<p style="margin-bottom: 10px; text-shadow: black">
+						Check out my code.
+					</p>
+					<div style="margin-bottom: 60px" class="card-body1">
+						<a id="spacing" href=""><i class="fa-brands fa-codepen"></i></a>
+						<a
+							id="spacing"
+							href="https://github.com/MudassarKhop"
+							target="blank"
+							><i class="fa-brands fa-github"></i
+						></a>
+						<a
+							id="spacing"
+							href="https://www.linkedin.com/in/mudassar-khopatkar-a9854023a/"
+							target="blank"
+							><i class="fa-brands fa-linkedin"></i
+						></a>
+					</div>
+				</div>
+				<div style="margin-top: 8px" class="card-body2">
+					<h2
+						style="
+							font-family: SpaceQuest;
+							text-shadow: 3px 3px black;
+							letter-spacing: 3px;
+							margin-top: 10px;
+						"
+					>
+						Contact ME
+					</h2>
+					<ul>
+						<li>
+							<p id="spacing">
+								<i class="fa-solid fa-location-dot"></i> 314 IMAM HARRON RD,
+								LANSDOWNE
+							</p>
+						</li>
+						<li>
+							<p id="spacing"><i class="fa-solid fa-phone"></i> 0840513506</p>
+						</li>
+						<li>
+							<p id="spacing">
+								<i class="fa-solid fa-at"></i> khopatkarmudassar@gmail.com
+							</p>
+						</li>
+					</ul>
+				</div>
+				<div>
+					<h2
+						style="
+							font-family: SpaceQuest;
+							text-shadow: 3px 3px black;
+							letter-spacing: 3px;
+							margin-bottom: 10px;
+						"
+					>
+						Socials
+					</h2>
+					<p style="margin-bottom: 10px">Find me on social media</p>
+					<div style="margin-bottom: 60px" class="card-body3">
+						<p id="spacing">
+							<a href="#"><i class="fa-brands fa-instagram"></i></a>
+						</p>
+						<p id="spacing">
+							<a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+						</p>
+						<p id="spacing">
+							<a href="#"><i class="fa-brands fa-google"></i></a>
+						</p>
+						<p id="spacing">
+							<a href="#"><i class="fa-brands fa-twitter"></i></a>
+						</p>
+						<p id="spacing">
+							<a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="details2">
+			<div id="footer2" class="card">
+				<p id="nav-foot2">©Life Choices-All Rights Reserved</p>
+			</div>
+		</div>
+	</div>
+</template>
+<script>
+	export default {};
+</script>
+<style scoped>
+	#footer {
+		padding-top: 5%;
+		height: 60vh;
+		background-color: white;
+	}
+	#logo {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		justify-content: center;
+		align-items: center;
+	}
+	#footer1 {
+		height: 50vh;
+		gap: 150px;
+		background: rgba(29, 91, 110, 0.997) 99.74%;
+	}
+	.card-body1 {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: start;
+		align-items: flex-start;
+	}
+	.card-body2 {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+	}
+	.card-body3 {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: end;
+		align-items: flex-start;
+	}
+	.card {
+		height: 10vh;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		background: rgba(15, 48, 58, 0.997) 99.74%;
+	}
+	#nav-foot {
+		position: relative;
+		left: -65%;
+		font-size: 20px;
+		font-family: "Racing Sans One", cursive;
+		color: white;
+		text-shadow: 3px 3px 4px black;
+	}
+
+	#nav-foot3 {
+		margin-right: 7%;
+	}
+	.missing {
+		color: transparent;
+	}
+	#spacing {
+		margin-bottom: 10px;
+	}
+	li::marker {
+		color: transparent;
+	}
+</style>

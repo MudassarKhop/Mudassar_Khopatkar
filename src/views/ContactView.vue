@@ -1,21 +1,27 @@
 <template>
 	<section id="contact">
-		<div id="blue"></div>
-		<div id="pink"></div>
-		<div id="blue2"></div>
-		<div id="glass-object">
+		<div>
 			<h2 class="heading">- lets get in touch -</h2>
 			<h1 class="heading-">JOIN THE FORCES</h1>
+			<div id="map">
+				<iframe
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13233.337033150945!2d18.46262728338417!3d-33.983947139991216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc42c52081a7cb%3A0x79fbdc90a0e82eac!2sClaremont%2C%20Cape%20Town%2C%207708!5e0!3m2!1sen!2sza!4v1658473922637!5m2!1sen!2sza"
+					width="600"
+					height="400"
+					style="border: 10px black; margin-top: 6%; margin-left: 5%"
+					allowfullscreen=""
+					loading="lazy"
+					referrerpolicy="no-referrer-when-downgrade"
+				></iframe>
+			</div>
 		</div>
-		<div class="container-about"></div>
 	</section>
 </template>
-<script>
-	export default {};
-</script>
+<script></script>
 <style scoped>
 	#contact {
-		height: 100vh;
+		padding: 60px;
+		height: 80vh;
 		background: black
 			linear-gradient(
 				255.21deg,
@@ -28,8 +34,6 @@
 		display: flex;
 		flex-direction: row;
 		flex-wrap: nowrap;
-		justify-content: center;
-		align-items: center;
 	}
 	#blue {
 		position: absolute;

@@ -34,7 +34,45 @@
 	.fa-brands {
 		padding-right: 10px;
 	}
-
+	.fa-location-dot {
+		font-size: 28px;
+		display: inline-block;
+		background: #212431;
+		color: #fff;
+		line-height: 1;
+		padding: 8px 0;
+		margin-right: 4px;
+		border-radius: 50%;
+		text-align: center;
+		width: 45px;
+		transition: 0.3s;
+	}
+	.fa-phone {
+		font-size: 28px;
+		display: inline-block;
+		background: #212431;
+		color: #fff;
+		line-height: 1;
+		padding: 8px 0;
+		margin-right: 4px;
+		border-radius: 50%;
+		text-align: center;
+		width: 45px;
+		transition: 0.3s;
+	}
+	.fa-fax {
+		font-size: 28px;
+		display: inline-block;
+		background: #212431;
+		color: #fff;
+		line-height: 1;
+		padding: 8px 0;
+		margin-right: 4px;
+		border-radius: 50%;
+		text-align: center;
+		width: 45px;
+		transition: 0.3s;
+	}
 	.fa-instagram {
 		font-size: 28px;
 		display: inline-block;
@@ -74,6 +112,71 @@
 		width: 45px;
 		transition: 0.3s;
 	}
+	.fa-facebook-f {
+		font-size: 28px;
+		display: inline-block;
+		background: #212431;
+		color: #fff;
+		line-height: 1;
+		padding: 8px 0;
+		margin-right: 4px;
+		border-radius: 50%;
+		text-align: center;
+		width: 45px;
+		transition: 0.3s;
+	}
+	.fa-at {
+		font-size: 28px;
+		display: inline-block;
+		background: #212431;
+		color: #fff;
+		line-height: 1;
+		padding: 8px 0;
+		margin-right: 4px;
+		border-radius: 50%;
+		text-align: center;
+		width: 45px;
+		transition: 0.3s;
+	}
+	.fa-whatsapp {
+		font-size: 28px;
+		display: inline-block;
+		background: #212431;
+		color: #fff;
+		line-height: 1;
+		padding: 8px 0;
+		margin-right: 4px;
+		border-radius: 50%;
+		text-align: center;
+		width: 45px;
+		transition: 0.3s;
+	}
+	.fa-codepen {
+		font-size: 28px;
+		display: inline-block;
+		background: #212431;
+		color: #fff;
+		line-height: 1;
+		padding: 8px 0;
+		margin-right: 4px;
+		border-radius: 50%;
+		text-align: center;
+		width: 45px;
+		transition: 0.3s;
+	}
+	.fa-google {
+		font-size: 28px;
+		display: inline-block;
+		background: #212431;
+		color: #fff;
+		line-height: 1;
+		padding: 8px 0;
+		margin-right: 4px;
+		border-radius: 50%;
+		text-align: center;
+		width: 45px;
+		transition: 0.3s;
+	}
 	.fa-linkedin {
 		font-size: 28px;
 		display: inline-block;
@@ -97,12 +200,27 @@
 			#515ecf
 		);
 	}
+	.fa-google:hover {
+		background-color: red;
+		color: white;
+	}
 	.fa-twitter:hover {
 		background-color: #1da1f2;
+	}
+	.fa-codepen:hover {
+		background-color: black;
 	}
 	.fa-linkedin:hover {
 		background: white;
 		color: #0077b5;
+	}
+	.fa-facebook-f:hover {
+		background: #4867aa;
+		color: #ffffff;
+	}
+	.fa-whatsapp:hover {
+		background: #26d047;
+		color: #ffffff;
 	}
 	.fa-github:hover {
 		background: white;

@@ -1,7 +1,7 @@
 <template>
 	<section id="testimonials">
 		<h2 class="heading">- what people say about me -</h2>
-		<h1 class="heading-">TESTIMONIALS</h1>
+		<h1 class="heading-">CREWMATES</h1>
 	</section>
 </template>
 <script>

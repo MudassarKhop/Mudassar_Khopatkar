@@ -1,7 +1,11 @@
 <template>
 	<router-view />
+	<Footer />
 </template>
-<script></script>
+<script>
+	import Footer from "@/components/footer.vue";
+	export default { components: { Footer } };
+</script>
 <style>
 	* {
 		padding: 0;
