@@ -103,10 +103,10 @@
 	.head2 {
 		position: relative;
 		font-size: 45px;
-		margin-top: 17%;
+		margin-top: 20%;
 		display: flex;
 		flex-direction: row;
-		flex-wrap: nowrap;
+		flex-wrap: wrap;
 		justify-content: center;
 		align-items: center;
 		color: white;
@@ -400,5 +400,92 @@
 		to {
 			transform: rotateZ(360deg);
 		}
+	}
+	
+		
+	@media only screen and (max-width: 1020px) {
+		.head {
+		font-size: 20px;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		color: white;
+		letter-spacing: 2px;
+		font-family: SpaceQuest1;
+		text-shadow: 5px 5px black;
+	}
+	.head2 {
+		position: relative;
+		font-size: 25px;
+		margin-top: 35%;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		justify-content: center;
+		align-items: center;
+		color: white;
+		letter-spacing: 5px;
+		font-family: Rocket;
+		text-shadow: 10px 10px black;
+	}
+	}
+	@media only screen and (max-width: 980px) {
+		.head {
+		font-size: 20px;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		color: white;
+		letter-spacing: 2px;
+		font-family: SpaceQuest1;
+		text-shadow: 5px 5px black;
+	}
+	.head2 {
+		position: relative;
+		font-size: 25px;
+		margin-top: 35%;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		justify-content: center;
+		align-items: center;
+		color: white;
+		letter-spacing: 5px;
+		font-family: Rocket;
+		text-shadow: 10px 10px black;
+	}
+	}
+	@media only screen and (max-width: 375px) {
+		.head {
+		font-size: 17px;
+		margin-top: 5%;
+		/* display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center; */
+		color: white;
+		letter-spacing: 2px;
+		font-family: SpaceQuest1;
+		text-shadow: 5px 5px black;
+	}
+	.head2 {
+		position: relative;
+		font-size: 11px;
+		margin-top: 63%;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		justify-content: center;
+		align-items: center;
+		color: white;
+		letter-spacing: 5px;
+		font-family: Rocket;
+		text-shadow: 10px 10px black;
+	}
 	}
 </style>

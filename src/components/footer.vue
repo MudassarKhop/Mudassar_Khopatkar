@@ -2,7 +2,34 @@
 	<div id="logos">
 		<div id="details">
 			<div id="footer1" class="card w-100">
-				<div>
+				<div style="margin-top: 8px" class="card-body2">
+					<h2
+						style="
+							font-family: SpaceQuest;
+							text-shadow: 3px 3px black;
+							letter-spacing: 3px;
+							margin-top: 10px;
+							margin-bottom: 10px;
+						"
+					>
+						Contact ME
+					</h2>
+					<ul>
+						<li>
+							<p id="spacing">
+								<i class="fa-solid fa-location-dot"></i> 314 IMAM HARRON RD,
+								LANSDOWNE
+							</p>
+						</li>
+
+						<li>
+							<p id="spacing">
+								<i class="fa-solid fa-at"></i> khopatkarmudassar@gmail.com
+							</p>
+						</li>
+					</ul>
+				</div>
+				<div id="card-body1">
 					<h2
 						style="
 							font-family: SpaceQuest;
@@ -16,7 +43,7 @@
 					<p style="margin-bottom: 10px; text-shadow: black">
 						Check out my code.
 					</p>
-					<div style="margin-bottom: 60px" class="card-body1">
+					<div class="card-body1">
 						<a id="spacing" href=""><i class="fa-brands fa-codepen"></i></a>
 						<a
 							id="spacing"
@@ -32,35 +59,9 @@
 						></a>
 					</div>
 				</div>
-				<div style="margin-top: 8px" class="card-body2">
-					<h2
-						style="
-							font-family: SpaceQuest;
-							text-shadow: 3px 3px black;
-							letter-spacing: 3px;
-							margin-top: 10px;
-						"
-					>
-						Contact ME
-					</h2>
-					<ul>
-						<li>
-							<p id="spacing">
-								<i class="fa-solid fa-location-dot"></i> 314 IMAM HARRON RD,
-								LANSDOWNE
-							</p>
-						</li>
-						<li>
-							<p id="spacing"><i class="fa-solid fa-phone"></i> 0840513506</p>
-						</li>
-						<li>
-							<p id="spacing">
-								<i class="fa-solid fa-at"></i> khopatkarmudassar@gmail.com
-							</p>
-						</li>
-					</ul>
-				</div>
-				<div>
+				
+				
+				<div id="card-body3">
 					<h2
 						style="
 							font-family: SpaceQuest;
@@ -72,7 +73,7 @@
 						Socials
 					</h2>
 					<p style="margin-bottom: 10px">Find me on social media</p>
-					<div style="margin-bottom: 60px" class="card-body3">
+					<div  class="card-body3">
 						<p id="spacing">
 							<a href="#"><i class="fa-brands fa-instagram"></i></a>
 						</p>
@@ -103,11 +104,7 @@
 	export default {};
 </script>
 <style scoped>
-	#footer {
-		padding-top: 5%;
-		height: 60vh;
-		background-color: white;
-	}
+	
 	#logo {
 		display: flex;
 		flex-direction: row;
@@ -120,25 +117,27 @@
 		gap: 150px;
 		background: rgba(29, 91, 110, 0.997) 99.74%;
 	}
+	
 	.card-body1 {
 		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
 		justify-content: start;
 		align-items: flex-start;
+				
 	}
 	.card-body2 {
 		display: flex;
 		flex-direction: column;
 		flex-wrap: wrap;
-		justify-content: center;
-		align-items: center;
+		justify-content: start;
+		align-items: flex-start;
 	}
 	.card-body3 {
 		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
-		justify-content: end;
+		justify-content: start;
 		align-items: flex-start;
 	}
 	.card {
@@ -170,5 +169,145 @@
 	}
 	li::marker {
 		color: transparent;
+	}
+	@media only screen and (max-width: 1020px) {
+		#footer1{
+			display: flex;
+			flex-direction: column;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-content: center;
+			height: auto;
+				gap: 50px;
+				
+		};
+		#card-body1 {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		margin-right: 10%;
+	}
+	.card-body1 {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+	
+	}
+	.card-body2 {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+	}
+	.card-body3 {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+	}
+	 
+	}
+	@media only screen and (max-width: 980px) {
+		#footer1{
+			display: flex;
+			flex-direction: column;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-content: center;
+			height: auto;
+				gap: 50px;
+				
+		};
+		#card-body1 {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+	
+	}
+	.card-body1 {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+	
+	}
+	.card-body2 {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+	}
+	.card-body3 {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+	}
+		 
+	}
+	@media only screen and (max-width: 992px) {
+		#footer1{
+			display: flex;
+			flex-direction: column;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-content: center;
+			height: auto;
+				gap: 40px;
+		};
+		#card-body1 {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		margin-top: 1%;
+
+	}
+	#card-body3 {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 1%;
+
+	}
+	.card-body1 {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+	
+	}
+	.card-body2 {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		
+	}
+	.card-body3 {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+	}
+	 
+		
 	}
 </style>
