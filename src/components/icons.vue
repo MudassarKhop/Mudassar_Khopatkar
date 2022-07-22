@@ -1,0 +1,117 @@
+<template>
+	<div id="icons">
+		<a href="https://www.instagram.com/mudathierkop/" target="blank"
+			><i class="fa-brands fa-instagram"></i
+		></a>
+		<a href="https://github.com/MudassarKhop" target="blank"
+			><i class="fa-brands fa-github"></i
+		></a>
+		<a href="" target="blank" id="twitter"
+			><i class="fa-brands fa-twitter"></i
+		></a>
+		<a
+			href="https://www.linkedin.com/in/mudassar-khopatkar-a9854023a/"
+			target="blank"
+			><i class="fa-brands fa-linkedin"></i
+		></a>
+	</div>
+</template>
+<script>
+	export default {
+		props: ["icon"],
+	};
+</script>
+<style>
+	#icons {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		justify-content: flex-end;
+		align-items: flex-end;
+		padding: 50px;
+	}
+
+	.fa-brands {
+		padding-right: 10px;
+	}
+
+	.fa-instagram {
+		font-size: 28px;
+		display: inline-block;
+		background: #212431;
+		color: #fff;
+		line-height: 1;
+		padding: 8px 0;
+		margin-right: 4px;
+		border-radius: 50%;
+		text-align: center;
+		width: 45px;
+		transition: 0.3s;
+	}
+	.fa-github {
+		font-size: 28px;
+		display: inline-block;
+		background: #212431;
+		color: #fff;
+		line-height: 1;
+		padding: 8px 0;
+		margin-right: 4px;
+		border-radius: 50%;
+		text-align: center;
+		width: 45px;
+		transition: 0.3s;
+	}
+	.fa-twitter {
+		font-size: 28px;
+		display: inline-block;
+		background: #212431;
+		color: #fff;
+		line-height: 1;
+		padding: 8px 0;
+		margin-right: 4px;
+		border-radius: 50%;
+		text-align: center;
+		width: 45px;
+		transition: 0.3s;
+	}
+	.fa-linkedin {
+		font-size: 28px;
+		display: inline-block;
+		background: #212431;
+		color: #fff;
+		line-height: 1;
+		padding: 8px 0;
+		margin-right: 4px;
+		border-radius: 50%;
+		text-align: center;
+		width: 45px;
+		transition: 0.3s;
+	}
+	.fa-instagram:hover {
+		background: radial-gradient(
+			circle at 33% 100%,
+			#fed373 4%,
+			#f15245 30%,
+			#d92e7f 62%,
+			#9b36b7 85%,
+			#515ecf
+		);
+	}
+	.fa-twitter:hover {
+		background-color: #1da1f2;
+	}
+	.fa-linkedin:hover {
+		background: white;
+		color: #0077b5;
+	}
+	.fa-github:hover {
+		background: white;
+		color: #212431;
+	}
+
+	.fa-github:hover {
+		background-color: linear-gradient(
+			#405de6 #5851db #833ab4 #c13584 #e1306c #fd1d1d
+		);
+	}
+</style>
