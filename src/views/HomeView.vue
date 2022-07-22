@@ -18,7 +18,7 @@
 				<div class="test1"></div>
 				<article class="earth-demo">
 					<div class="earth">
-						<a href="/about/"
+						<a href="/projects/"
 							><img
 								src="https://cssanimation.rocks/images/random/earth.png"
 								alt=""
@@ -403,63 +403,5 @@
 	}
 	
 		
-	@media only screen and (min-width: 1020px) {
-		.head {
-		font-size: 17px;
-		margin-top: 5%;
-		display: flex;
-		flex-direction: row;
-		flex-wrap: wrap;
-		justify-content: center;
-		align-items: center;
-		color: white;
-		letter-spacing: 2px;
-		font-family: SpaceQuest1;
-		text-shadow: 5px 5px black;
-	}
-	.head2 {
-		position: relative;
-		font-size: 11px;
-		margin-top: 63%;
-		display: flex;
-		flex-direction: column;
-		flex-wrap: nowrap;
-		justify-content: center;
-		align-items: center;
-		color: white;
-		letter-spacing: 5px;
-		font-family: Rocket;
-		text-shadow: 10px 10px black;
-	}
-	}
-	@media only screen and (max-width: 414px) {
-		.head {
-		font-size: 20px;
-		margin-top: 30%;
-		display: flex;
-		flex-direction: row;
-		flex-wrap: wrap;
-		justify-content: center;
-		align-items: center;
-		color: white;
-		letter-spacing: 2px;
-		font-family: SpaceQuest1;
-		text-shadow: 5px 5px black;
-	}
-	.head2 {
-		position: relative;
-		font-size: 13px;
-		margin-top: 63%;
-		display: flex;
-		flex-direction: column;
-		flex-wrap: nowrap;
-		justify-content: center;
-		align-items: center;
-		color: white;
-		letter-spacing: 5px;
-		font-family: Rocket;
-		text-shadow: 10px 10px black;
-	}
-	}
-	
+
 </style>

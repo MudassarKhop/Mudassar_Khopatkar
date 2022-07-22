@@ -3,21 +3,6 @@
 		<h2 class="heading">- some of my work -</h2>
 		<h1 class="heading-">SUCCESSFUL MISSIONS</h1>
 		<div class="projects-section">
-			<div class="project-text">
-				<h3 class="about-heading3">- FIND WHAT YOU'RE LOOKING FOR -</h3>
-				<p id="para-about">
-					USE THE SORT FUNCTION TO FIND PROJECTS WITH DISTINT LANGUAGES
-				</p>
-				<div class="projectFilter" v-if="filteredProjects">
-					<select v-model="language">
-						<option value="all">All</option>
-						<option value="CSS">CSS</option>
-						<option value="JAVASCRIPT">Javascript</option>
-						<option value="BOOTSTRAP">Bootstrap</option>
-						<option value="VUE">Vue</option>
-					</select>
-				</div>
-			</div>
 			<div class="project-text2">
 				<div class="iphone">
 					<img
@@ -33,6 +18,21 @@
 						class="png2"
 					/>
 				</div>
+					<div class="project-text">
+						<h3 class="about-heading3">- FIND WHAT YOU'RE LOOKING FOR -</h3>
+						<p id="para-about">
+							USE THE SORT FUNCTION TO FIND PROJECTS WITH DISTINT LANGUAGES
+						</p>
+						<div class="projectFilter" v-if="filteredProjects">
+							<select v-model="language">
+								<option value="all">All</option>
+								<option value="CSS">CSS</option>
+								<option value="JAVASCRIPT">Javascript</option>
+								<option value="BOOTSTRAP">Bootstrap</option>
+								<option value="VUE">Vue</option>
+							</select>
+						</div>
+					</div>
 			</div>
 		</div>
 		<div class="cardholder">
@@ -165,6 +165,13 @@
 				rgba(35, 99, 118, 0.6) 99.74%
 			);
 	}
+	select{
+		background-color:rgb(48, 48, 48) ;
+	}
+	option{
+		font-family: Rocket;
+		word-spacing: 5px;
+	}
 	.projects-section {
 		display: flex;
 		flex-wrap: nowrap;
@@ -273,4 +280,44 @@
 		text-shadow: 3px 3px black;
 	}
 	/*  */
+	 @media only screen and (max-width: 1140px)  {
+		.png1 {
+		height: 120px;
+		width: 90px;
+	}
+	.png2 {
+		width: 520px;
+		height: 200px;
+	}
+	.project-text {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+	}
+	.about-heading3{
+    font-size: 12px;
+  
+}
+#para-about {
+		font-size: 10px;
+	}
+
+	.projectfilter{
+		margin-bottom: 50%;
+	}
+			.png1 {
+	display: none;
+	}
+	.png2 {
+		display: none;
+	}
+		.iphone {
+
+		margin-top: 30%;
+		margin-left: 20%;
+	}
+	 }
+
 </style>
