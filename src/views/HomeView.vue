@@ -6,9 +6,7 @@
 				<div class="head">
 					<h1>MUDASSAR KHOPATKAR</h1>
 					<p>-aspiring web developer-</p>
-				</div>
-				<div class="head2">
-					<h1>WELCOME TO My UNIVERSE</h1>
+					<h2>WELCOME TO My UNIVERSE</h2>
 				</div>
 			</div>
 			<div class="night">
@@ -102,19 +100,12 @@
 		font-family: SpaceQuest1;
 		text-shadow: 5px 5px black;
 	}
-	.head2 {
-		position: relative;
-		font-size: 45px;
-		margin-top: 20%;
-		display: flex;
-		flex-direction: row;
-		flex-wrap: wrap;
-		justify-content: center;
-		align-items: center;
-		color: white;
-		letter-spacing: 5px;
+	.head p{
+		font-size: 25px;
+	}
+	.head h2 {
 		font-family: Rocket;
-		text-shadow: 10px 10px black;
+		color: #67b3e4;
 	}
 
 	body {
@@ -403,7 +394,66 @@
 			transform: rotateZ(360deg);
 		}
 	}
-	
-		
+	@media only screen and (min-width: 350px){
 
+			.head {
+		font-size: 20px;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		justify-content: center;
+		align-items: center;
+		color: white;
+		letter-spacing: 2px;
+		font-family: SpaceQuest1;
+		text-shadow: 5px 5px black;
+	}
+	.head p{
+		font-size: 16px;
+	}
+	.head h2 {
+	font-size: 22px;
+	}
+	}
+		@media only screen and (min-width: 820px){
+
+			.head {
+		font-size: 40px;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		justify-content: center;
+		align-items: center;
+		color: white;
+		letter-spacing: 2px;
+		font-family: SpaceQuest1;
+		text-shadow: 5px 5px black;
+	}
+	.head h2 {
+	font-size: 35px;
+	}
+	}
+		@media only screen and (max-width: 280px){
+
+			.head h1 {
+		font-size: 20px;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		justify-content: center;
+		align-items: center;
+		color: white;
+		letter-spacing: 2px;
+		font-family: SpaceQuest1;
+		text-shadow: 5px 5px black;
+	}
+	.head p{
+		font-size: 10px;
+		display: flex;
+
+	}
+	.head h2 {
+	font-size: 16px;
+	}
+		}
 </style>

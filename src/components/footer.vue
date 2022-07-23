@@ -14,20 +14,16 @@
 					>
 						Contact ME
 					</h2>
-					<ul>
-						<li>
+					
 							<p id="spacing" style="font-family: SpaceQuest;">
 								<i class="fa-solid fa-location-dot"></i> 314 IMAM HARRON RD,
 								LANSDOWNE
 							</p>
-						</li>
-
-						<li>
+						
 							<p id="spacing" style="font-family: SpaceQuest; text-shadow: 2px black;">
 								<i class="fa-solid fa-at"></i> khopatkarmudassar@gmail.com
 							</p>
-						</li>
-					</ul>
+					
 				</div>
 				<div id="card-body1">
 					<h2
