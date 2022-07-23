@@ -67,7 +67,7 @@
 					{
 						id: "1",
 						img: "https://i.postimg.cc/Vk9zYRtg/Screenshot-2022-07-21-095105.jpg",
-						title: "_To-Dooo-List_",
+						title: "To-Do-List",
 						description: "",
 						language: "JAVASCRIPT",
 						date: "",
@@ -77,7 +77,7 @@
 					{
 						id: "2",
 						img: "https://i.postimg.cc/0jJqhdxp/Screenshot-2022-07-21-095132.jpg",
-						title: "_Car-Website_",
+						title: "Car-Website",
 						description: "",
 						language: "JAVASCRIPT",
 						date: "",
@@ -97,7 +97,7 @@
 					{
 						id: "4",
 						img: "https://i.postimg.cc/G2fCMS0L/Screenshot-2022-07-21-095048.jpg",
-						title: "Weather Converter",
+						title: "Converter",
 						description: "",
 						language: "JAVASCRIPT",
 						date: "",
@@ -107,7 +107,7 @@
 					{
 						id: "5",
 						img: "https://i.postimg.cc/7b8y4GYj/Screenshot-2022-07-21-094939.jpg",
-						title: "Restaurant Website",
+						title: "Restaurant",
 						description: "",
 						language: "BOOTSTRAP",
 						date: "",
@@ -117,7 +117,7 @@
 					{
 						id: "6",
 						img: "https://i.postimg.cc/9M02YHng/Screenshot-2022-07-21-095153.jpg",
-						title: "_Game-Website_",
+						title: "Game Website",
 						description: "",
 						language: "VUE",
 						date: "",
@@ -127,7 +127,7 @@
 					{
 						id: "7",
 						img: "https://i.postimg.cc/2SNzRJ13/Screenshot-2022-07-21-094959.jpg",
-						title: "Mock Portfolio",
+						title: "first Portfolio",
 						description: "",
 						language: "CSS",
 						date: "",
@@ -137,7 +137,7 @@
 					{
 						id: "8",
 						img: "https://i.postimg.cc/43Jsn9bg/Screenshot-2022-07-21-095015.jpg",
-						title: "Java-Calculator",
+						title: "Calculator",
 						description: "",
 						language: "JAVASCRIPT",
 						date: "",
@@ -248,7 +248,7 @@
 		margin-bottom: 5%;
 	}
 	select {
-		width: 190px;
+		width: 170px;
 		height: 50px;
 		filter: drop-shadow(4px 4px 4px grey);
 	}

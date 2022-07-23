@@ -4,7 +4,7 @@
 			<img v-bind:src="project.img" alt="" />
 		</div>
 		<div id="h1">
-			<h1>{{ project.title }}</h1>
+			<h4>{{ project.title }}</h4>
 			<p>{{project.description}}</p>
 		</div>
 <div class="btn">
@@ -30,7 +30,7 @@
 	img {
 		position: relative;
 		height: 240px;
-		width: 290px;
+		width: 280px;
 		border-top-left-radius: 8%;
 		border-top-right-radius: 8%;
 	}
@@ -41,8 +41,9 @@
 		letter-spacing: 3px;
 	}
 	.card {
+		margin-top: 2%;
 		background: #191c29;
-		width: 290px;
+		width: 280px;
 		height: 350px;
 		padding: 3px;
 		border-radius: 6px;
@@ -119,4 +120,18 @@ margin-bottom: 10px;
 			transform: translateY(0);
 		}
 	}
+
+	@media only screen and (max-width: 1020px) {
+		img {
+		position: relative;
+		height: 240px;
+		width: 280px;
+		border-top-left-radius: 8%;
+		border-top-right-radius: 8%;
+	}
+	.card{
+		animation: none;
+	}
+	}
+
 </style>

@@ -16,14 +16,14 @@
 					</h2>
 					<ul>
 						<li>
-							<p id="spacing">
+							<p id="spacing" style="font-family: SpaceQuest;">
 								<i class="fa-solid fa-location-dot"></i> 314 IMAM HARRON RD,
 								LANSDOWNE
 							</p>
 						</li>
 
 						<li>
-							<p id="spacing">
+							<p id="spacing" style="font-family: SpaceQuest; text-shadow: 2px black;">
 								<i class="fa-solid fa-at"></i> khopatkarmudassar@gmail.com
 							</p>
 						</li>
@@ -40,7 +40,7 @@
 					>
 						Discover
 					</h2>
-					<p style="margin-bottom: 10px; text-shadow: black">
+					<p style="margin-bottom: 10px; font-family: SpaceQuest; text-shadow: 2px black; text-shadow: black">
 						Check out my code.
 					</p>
 					<div class="card-body1">
@@ -72,7 +72,7 @@
 					>
 						Socials
 					</h2>
-					<p style="margin-bottom: 10px">Find me on social media</p>
+					<p style="margin-bottom: 10px; font-family: SpaceQuest; text-shadow: 2px black;">Find me on social media</p>
 					<div  class="card-body3">
 						<p id="spacing">
 							<a href="#"><i class="fa-brands fa-instagram"></i></a>
@@ -94,7 +94,7 @@
 			</div>
 		</div>
 		<div id="details2">
-			<div id="footer2" class="card">
+			<div id="footer2" class="card" style="font-family:Rocket;">
 				<p id="nav-foot2">©Life Choices-All Rights Reserved</p>
 			</div>
 		</div>
@@ -119,6 +119,7 @@
 	}
 	
 	.card-body1 {
+		font-family: SpaceQuest1;
 		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
@@ -153,7 +154,7 @@
 		position: relative;
 		left: -65%;
 		font-size: 20px;
-		font-family: "Racing Sans One", cursive;
+		font-family: Rocket;
 		color: white;
 		text-shadow: 3px 3px 4px black;
 	}
@@ -164,8 +165,12 @@
 	.missing {
 		color: transparent;
 	}
+	p{
+		 text-shadow: 4px 4px black
+	}
 	#spacing {
 		margin-bottom: 10px;
+		
 	}
 	li::marker {
 		color: transparent;
