@@ -1,6 +1,6 @@
 <template>
 	<section id="landing">
-		<div class="container">
+		<div class="container1">
 			<div class="stars">
 				<Icons />
 				<div class="head">
@@ -18,7 +18,7 @@
 				<div class="test1"></div>
 				<article class="earth-demo">
 					<div class="earth">
-						<a href="/projects/"
+						<a href="/projects"
 							><img
 								src="https://cssanimation.rocks/images/random/earth.png"
 								alt=""
@@ -51,7 +51,9 @@
 		margin: 0;
 		/* box-sizing: border-box; */
 	}
-
+#landing{
+	width: 100%;
+}
 	@font-face {
 		font-family: SpaceQuest;
 		src: url(../assets/fonts/SpaceQuest-Xj4o.ttf);
@@ -119,7 +121,7 @@
 		background-color: #161a2d;
 	}
 
-	.container {
+	.container1 {
 		position: relative;
 		height: 100vh;
 		background: linear-gradient(

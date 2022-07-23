@@ -5,7 +5,64 @@
 	</section>
 </template>
 <script>
-	export default {};
+	export default {
+		data() {
+			return {
+				testimonials: [
+					{
+						id: "1",
+						name:"CARLA LAWRENCE",
+						img: "https://i.postimg.cc/Vk9zYRtg/Screenshot-2022-07-21-095105.jpg",
+						title: "PEER",
+						description: "Mudassar Khopatkar is a highly competent and  focused web developer. His friendly disposition draws his colleagues to him and he is impressionable to everyone he comes in contact with.",
+						
+					},
+					{
+						id: "2",
+						name:"Zoe",
+						img: "https://i.postimg.cc/Vk9zYRtg/Screenshot-2022-07-21-095105.jpg",
+						title: "PEER",
+						description: "Mudassar khopatkar is a dedicated person , he strives to reach his goals and will put twice the amount of work in to achieve everything . He is a extremely talented person with many skills .",
+						
+					},
+					{
+						id: "3",
+						name:"Jesse Spencer",
+						img: "https://i.postimg.cc/Vk9zYRtg/Screenshot-2022-07-21-095105.jpg",
+						title: "PEER",
+						description: "It is my great pleasure to have worked with Mudassar Khopatkar as he is a good team worker.He can collaborate and communicate with others on their ideas.",
+						
+					},
+					{
+						id: "4",
+						name:"Tshimologo King",
+						img: "https://i.postimg.cc/Vk9zYRtg/Screenshot-2022-07-21-095105.jpg",
+						title: "PEER",
+						description: "I am profoundly impressed with his intense focus and commitment. His enthusiasm towards his work is remarkable. I am convinced that he can make a more valuable contribution for future endeavours.",
+						
+					},
+					{
+						id: "5",
+						name:"",
+						img: "",
+						title: "",
+						description: "",
+						
+					},
+					{
+						id: "6",
+						name:"",
+						img: "",
+						title: "",
+						description: "",
+						
+					},
+				],
+			
+			};
+		},
+		components: { Projectcard, Icons, Icons, Icons, Icons, Projectcard },
+	};
 </script>
 <style scoped>
 	#testimonials {

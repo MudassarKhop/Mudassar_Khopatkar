@@ -237,7 +237,7 @@
 		flex-wrap: wrap;
 		justify-content: center;
 		align-items: center;
-		gap: 60px;
+		gap: 45px;
 	}
 	.projectFilter {
 		display: flex;
@@ -258,6 +258,8 @@
 		flex-wrap: wrap;
 		justify-content: center;
 		align-items: center;
+				margin-bottom: -3%;
+
 	}
 	.project-text2 {
 	}
@@ -303,10 +305,10 @@
 #para-about {
 		font-size: 10px;
 	}
+.project-text{
+			margin-bottom: 5%;
 
-	.projectfilter{
-		margin-bottom: 50%;
-	}
+}
 			.png1 {
 	display: none;
 	}
