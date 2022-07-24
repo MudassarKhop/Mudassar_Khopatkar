@@ -99,6 +99,7 @@
 		width: 45px;
 		transition: 0.3s;
 	}
+
 	.fa-twitter {
 		font-size: 28px;
 		display: inline-block;

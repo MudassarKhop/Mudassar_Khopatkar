@@ -6,7 +6,7 @@
 		<div id="glass-object">
 			<div id="head">
 				<h2 class="heading">- past, present -</h2>
-				<h1 class="heading-">CAPTAINS LOG</h1>
+				<h1 class="heading-">CAPTAIN'S LOG</h1>
 			</div>
 			<div id="information" >
 				
