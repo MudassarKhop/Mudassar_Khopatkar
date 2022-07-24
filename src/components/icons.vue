@@ -6,7 +6,7 @@
 		<a href="https://github.com/MudassarKhop" target="blank"
 			><i class="fa-brands fa-github"></i
 		></a>
-		<a href="" target="blank" id="twitter"
+		<a href="https://twitter.com/MudathierKop" target="blank" id="twitter"
 			><i class="fa-brands fa-twitter"></i
 		></a>
 		<a

@@ -56,14 +56,7 @@ import Testcard from '@/components/testcard.vue';
 						description: "Mudassar shows a lot of promise as a software developer.  When he is focused, he works very diligently.   His coding skills are gradually and steadily improving over time. I'm always happy seeing Mudassar grow as a developer, and I hope he continues to work hard.",
 						
 					},
-					{
-						id: "6",
-						name:"",
-						img: "",
-						title: "",
-						description: "",
-						
-					},
+					
 				],
 			
 			};

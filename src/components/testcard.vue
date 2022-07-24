@@ -21,6 +21,14 @@ export default {
 
 <style scoped>
 @font-face {
+		font-family: SpaceQuest;
+		src: url(../assets/fonts/SpaceQuest-Xj4o.ttf);
+	}
+	@font-face {
+		font-family: Rocket;
+		src: url(../assets/fonts/RocketRinder-yV5d.ttf);
+	}
+@font-face {
     font-family: Atauri;
     src: url(../assets/fonts/Atures500PersonalUseOnly-GD6D.ttf);
 }
@@ -37,6 +45,7 @@ export default {
 		letter-spacing: 3px;
 	}
     #h1 h2{
+        font-family: SpaceQuest;
     font-size: 20px;
     }
     #h1 h4{

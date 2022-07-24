@@ -8,22 +8,6 @@
 					<p>-aspiring web developer-</p>
 					<h2>WELCOME TO My UNIVERSE</h2>
 				</div>
-				<div class="w3-container">
- 
-  <button id="buttonn" onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-black"><img src="../assets/toppng.com-astronaut-548x698.png" alt=""></button>
-
-  <div id="id01" class="w3-modal">
-    <div class="w3-modal-content">
-      <div class="w3-container">
-        <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">&times;</span>
-        <button><router-link to="/about"> about</router-link></button>
-        <button><router-link to="/projects"> projects</router-link></button>
-		<button><router-link to="/test"> testimonials</router-link></button>
-		<button><router-link to="/contact"> contact me</router-link></button>
-      </div>
-    </div>
-  </div>
-</div>
 			</div>
 			<div class="night">
 				<div class="shooting_star"></div>
@@ -57,7 +41,7 @@
 	import Icons from "@/components/icons.vue";
 	export default {
 		components: { icons, Icons },
-	};
+	}
 </script>
 <style scoped>
 	* {
@@ -73,34 +57,6 @@
 		src: url(../assets/fonts/SpaceQuest-Xj4o.ttf);
 	}
 	@font-face {
-		font-family: SpaceQuest1;
-		src: url(../assets/fonts/SpaceQuest-yOY3.ttf);
-	}
-	@font-face {
-		font-family: SpaceQuest2;
-		src: url(../assets/fonts/SpaceQuestItalic-60Rx.ttf);
-	}
-	@font-face {
-		font-family: SpaceQuest3;
-		src: url(../assets/fonts/SpaceQuestItalic-g8jY.ttf);
-	}
-	@font-face {
-		font-family: SpaceMIssion;
-		src: url(../assets/fonts/SpaceMission-rgyw9.otf);
-	}
-	@font-face {
-		font-family: Edge;
-		src: url(../assets/fonts/EdgeOfTheGalaxyPosterItalic-x3o1m.otf);
-	}
-	@font-face {
-		font-family: EdgeReg;
-		src: url(../assets/fonts/EdgeOfTheGalaxyRegular-OVEa6.otf);
-	}
-	@font-face {
-		font-family: StarJedi;
-		src: url(../assets/fonts/StarJedi-DGRW.ttf);
-	}
-	@font-face {
 		font-family: Rocket;
 		src: url(../assets/fonts/RocketRinder-yV5d.ttf);
 	}
@@ -113,10 +69,14 @@
 		align-items: center;
 		color: white;
 		letter-spacing: 2px;
-		font-family: SpaceQuest1;
+		font-family: Rocket;
 		text-shadow: 5px 5px black;
 	}
+	.head h1{
+		font-family: Rocket;
+	}
 	.head p{
+		font-family: SpaceQuest ;
 		font-size: 25px;
 	}
 	.head h2 {
@@ -127,9 +87,6 @@
 	body {
 		background-color: #161a2d;
 	}
-#buttonn:hover{
-     background-color: transparent;
-}
 	.container1 {
 		position: relative;
 		height: 100vh;
@@ -143,10 +100,7 @@
 		);
 		overflow: hidden;
 	}
-img{
-	width: 450px;
-	height: 600px;
-}
+
 	.night {
 		position: relative;
 		width: 100%;
@@ -313,7 +267,6 @@ img{
 			background-position: -10000px 5000px;
 		}
 	}
-
 	.stars,
 	.twinkling,
 	.clouds {

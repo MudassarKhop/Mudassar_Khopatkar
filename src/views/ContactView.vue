@@ -18,7 +18,6 @@
             <textarea name="" id="submit-sec" class="mb-2 form-control" placeholder="Message"></textarea>
 
       <button type="submit">SUBMIT</button>
-      <p class="message">want more? <a href="#http//.www.lifechoices.com" target="_blank">lifechoices.com</a></p>
     </form>
   </div>
                         </div>

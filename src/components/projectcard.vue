@@ -23,6 +23,14 @@
 	};
 </script>
 <style scoped>
+@font-face {
+		font-family: SpaceQuest;
+		src: url(../assets/fonts/SpaceQuest-Xj4o.ttf);
+	}
+	@font-face {
+		font-family: Rocket;
+		src: url(../assets/fonts/RocketRinder-yV5d.ttf);
+	}
 	#img {
 		position: relative;
 		bottom: 12%;
@@ -36,9 +44,12 @@
 	}
 	#h1 {
 		font-size: small;
-		font-family: SpaceQuest2;
+		font-family: Rocket;
 		text-shadow: 3px 3px black;
 		letter-spacing: 3px;
+	}
+	h4{
+		font-family: SpaceQuest;
 	}
 	.card {
 		margin-top: 2%;

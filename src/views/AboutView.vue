@@ -284,6 +284,8 @@
 		letter-spacing: 3px;
 	}
 	#resume {
+			margin-top: 5%;
+		margin-bottom: 5%;
 	}
 	#resume2 {
 		margin-top: 5%;
@@ -330,6 +332,13 @@
 				overflow: wrap;
 
 	}
+	#resume2{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
 	.text-3 {
 		margin-top: 2%;
 		display: flex;

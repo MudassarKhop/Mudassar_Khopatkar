@@ -71,19 +71,19 @@
 					<p style="margin-bottom: 10px; font-family: Atauri; text-shadow: 2px black;">Find me on social media</p>
 					<div  class="card-body3">
 						<p id="spacing">
-							<a href="#"><i class="fa-brands fa-instagram"></i></a>
+							<a href="https://instagram.com/mudathierkop" target="_blank"><i class="fa-brands fa-instagram"></i></a>
 						</p>
 						<p id="spacing">
-							<a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+							<a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
 						</p>
 						<p id="spacing">
-							<a href="#"><i class="fa-brands fa-google"></i></a>
+							<a href="https://gmail.com" target="_blank"><i class="fa-brands fa-google"></i></a>
 						</p>
 						<p id="spacing">
-							<a href="#"><i class="fa-brands fa-twitter"></i></a>
+							<a href="https://twitter.com/MudathierKop" target="_blank"><i class="fa-brands fa-twitter"></i></a>
 						</p>
 						<p id="spacing">
-							<a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+							<a href="https://whatsapp.com" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
 						</p>
 					</div>
 				</div>
